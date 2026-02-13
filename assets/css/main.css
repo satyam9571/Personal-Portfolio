@@ -1104,6 +1104,10 @@ section,
   text-align:center;
   box-shadow:0 8px 22px rgba(0,0,0,0.08);
   transition:0.3s ease;
+   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project-item:hover{
